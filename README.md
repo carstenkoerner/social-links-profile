@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-using-flexbox-CIS8OzEhYw](https://www.frontendmentor.io/solutions/social-links-profile-using-flexbox-CIS8OzEhYw)
 - Live Site URL: [https://carstenkoerner.github.io/social-links-profile/](https://carstenkoerner.github.io/social-links-profile/)
 
 ## My process
