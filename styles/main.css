@@ -1,0 +1,120 @@
+:root {
+  /* --color-green: hsl(75, 94%, 57%); */
+  --color-yellow: hsl(51, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 20%);
+  --color-dark-grey: hsl(0, 0%, 12%);
+  --color-off-black: hsl(0, 0%, 8%);
+  --color-attribution-a: hsl(228, 45%, 44%); 
+  --fontsize-main: 0.875rem; /* 14px */
+  --fontweight-regular: 400;
+  --fontweight-semi-bold: 600;
+  --fontweightw-bold: 700;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+body {
+  background-color: var(--color-off-black);
+  font-family: "Inter", sans-serif;
+  min-height: 98svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--fontsize-main);
+}
+
+.card {
+  width: 24rem;
+  background-color: var(--color-dark-grey);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 26rem) {
+  .card {
+      width: 20.5rem;
+  }
+}
+
+.card-img {
+  border-radius: 176px;
+  width: 6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 26rem) {
+  .card-img {
+      width: 5.5rem;
+  }
+}
+
+.card-name {
+  margin-top: 0;
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: var(--fontweight-semi-bold);
+  margin-bottom: 0.5rem;
+}
+
+.card-city {
+  color: var(--color-yellow);
+  font-weight: var(--fontweight-semi-bold);
+  margin-bottom: 1.5rem;
+}
+
+.card-slogan {
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+}
+
+.card-links {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-links a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: var(--fontweightw-bold);
+  background-color: var(--color-grey);
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 2.8rem;
+  padding-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.card-links a:hover {
+  background-color: var(--color-yellow);
+  color: var(--color-off-black);
+  transition: 0.1s;
+}
+
+.card-links a:focus {
+  outline: none;
+  padding-top: 0.6rem;
+  border: 2px solid var(--color-yellow);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  color: var(--color-white);
+}
+
+.attribution a { 
+  color: var(--color-attribution-a); 
+}
